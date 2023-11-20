@@ -1,0 +1,26 @@
+{
+  "name": "grankwebsitenew",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "scripts": {
+    "start": "cd GrankWebsiteClient && npm start && cd ../GrankWebsiteServer && npm start",
+    "start:client": "cd GrankWebsiteClient && npm start",
+    "start:server": "cd GrankWebsiteServer && npm start",
+    "build": "cd GrankWebsiteClient && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KommineniCharan/GrankWebsite.git"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KommineniCharan/GrankWebsite/issues"
+  },
+  "homepage": "https://github.com/KommineniCharan/GrankWebsite#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "main": "index.js"
+}
